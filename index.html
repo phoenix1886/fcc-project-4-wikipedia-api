@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Wikipedia Viewer</title>
-    
 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="CSS/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <main>
+        <p>
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+                Click here for a random article
+            </a>
+        </p>
 
+        <div id="container">
+
+        </div>
+        <div id="searchResultsContainer">
+
+        </div>
+    </main>
+
+    <div id="var1">
+        <div class="search-div">
+            <a id='search-anchor' href="">
+                <i id="search-icon" class="fa fa-search fa-3x .white" aria-hidden="true"></i>
+            </a>
+        </div>
+        <p id="search-text">
+            Click icon to search
+        </p>
+    </div>
+
+    <div id="var2">
+        <div id="searboxwrapper" class="searboxwrapper" >
+            <div class="searchbox">
+                <input type="search" id="search" />
+            </div>
+            <div class="closebuttion">
+                <span class="icon">
+                    <a id="input-icon-anchor" href="">
+                        <i id="input-icon" class="fa fa-search fa-2x"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
 </body>
 </html>
